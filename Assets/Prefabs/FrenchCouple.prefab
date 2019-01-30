@@ -1,0 +1,1266 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2440560817747315398
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4296644193340014238}
+  - component: {fileID: 4837999569834226337}
+  - component: {fileID: 2084507940}
+  m_Layer: 0
+  m_Name: French_boyfriend
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4296644193340014238
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2440560817747315398}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2.7981446, y: 0.891532, z: 0.09375}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5704841475975918563}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &4837999569834226337
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2440560817747315398}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: f7fca75de6c3fc84a955ca19248d79d7, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 10, y: 10}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!114 &2084507940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2440560817747315398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62c370585bbbccc4986ad4d4d6a20dd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  badSprite: {fileID: 21300000, guid: 7035d611275fbba49a7cddf31371b709, type: 3}
+  normalSprite: {fileID: 21300000, guid: f7fca75de6c3fc84a955ca19248d79d7, type: 3}
+  goodSprite: {fileID: 21300000, guid: f7fca75de6c3fc84a955ca19248d79d7, type: 3}
+--- !u!1 &9037000889255081361
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5704841475975918563}
+  - component: {fileID: 8731714867382105697}
+  - component: {fileID: 6102297072665623814}
+  m_Layer: 0
+  m_Name: FrenchCouple
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5704841475975918563
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9037000889255081361}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.35814452, y: 0.14, z: -0.09375}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 437622199406420422}
+  - {fileID: 4296644193340014238}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &8731714867382105697
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9037000889255081361}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -1.9154427, y: 1.3997126}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 5.6035, y: 3.7994251}
+  m_EdgeRadius: 0
+--- !u!114 &6102297072665623814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9037000889255081361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 463b7c2a1030a0e46b87c4961b3f73ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  miniDocsObj: {fileID: 8862992410847836429, guid: f66cf10fb9d93f741ba8c9afe69a5137,
+    type: 3}
+  expectedKey: 101
+  isCouple: 1
+  id: 2
+  name: 
+  initialMessage: 
+  nacionalidade: 7
+  humor: 2
+  choices: []
+  dialogueLines:
+  - lineType: 1
+    text: Bonjour, my friends. I hope you're feeling well. Welcome to mi casa.      We'll
+      do our best to make you feel at home.
+    choices: []
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 0
+    humorToGo: 0
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 0
+    wrongKeyNextIndex: 0
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 0
+    text: Bonjour, monsieur. Thanks. We have the room 101 reserved.
+    choices: []
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 0
+    humorToGo: 0
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 0
+    wrongKeyNextIndex: 0
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 1
+    text: Alright, let me check. May I see your ids?
+    choices: []
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 0
+    humorToGo: 0
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 0
+    wrongKeyNextIndex: 0
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 0
+    text: Oui. Here it is.
+    choices: []
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 0
+    humorToGo: 0
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 0
+    wrongKeyNextIndex: 0
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 1
+    text: Just a moment.
+    choices: []
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 0
+    humorToGo: 0
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 0
+    wrongKeyNextIndex: 0
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 5
+    text: 
+    choices: []
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 0
+    humorToGo: 0
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 0
+    wrongKeyNextIndex: 0
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 0
+    text: You know, this is a tricky place to come by bike.       We have lost our
+      breaths so much, we had to stop to smoke a cigarrete on the way here.
+    choices: []
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 0
+    humorToGo: 0
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 0
+    wrongKeyNextIndex: 0
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 1
+    text: So... you guys smoke?
+    choices: []
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 1
+    changeHumor: 0
+    humorToGo: 2
+    badNextLineIndex: 52
+    normalNextLineIndex: 8
+    goodNextLineIndex: 46
+    rightKeyNextIndex: 0
+    wrongKeyNextIndex: 0
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 0
+    text: No. We just carry some cigarretes to make us company when we travel.
+    choices: []
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 0
+    humorToGo: 0
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 0
+    wrongKeyNextIndex: 0
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 3
+    text: 
+    choices:
+    - No smokers
+    - Smoker's suite
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 0
+    humorToGo: 0
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 0
+    wrongKeyNextIndex: 0
+    choiceOneNextLine: 10
+    choiceTwoNextLine: 27
+  - lineType: 1
+    text: Well, I am sorry then. You'll have to throw them out. We don't accept smoking
+      inside.
+    choices:
+    - No smokers
+    - Smoker's suite
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 1
+    humorToGo: 1
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 0
+    wrongKeyNextIndex: 0
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 0
+    text: Well, I didn't know that.
+    choices:
+    - No smokers
+    - Smoker's suite
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 0
+    humorToGo: 0
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 0
+    wrongKeyNextIndex: 0
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 1
+    text: It is on the forms, Mr.
+    choices:
+    - No smokers
+    - Smoker's suite
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 0
+    humorToGo: 0
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 0
+    wrongKeyNextIndex: 0
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 0
+    text: That's absurd. Is there anyway to sort this out? We don't want to be smoking
+      idly here, we still want to cycle on the sunset.
+    choices:
+    - No smokers
+    - Smoker's suite
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 0
+    humorToGo: 0
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 0
+    wrongKeyNextIndex: 0
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 1
+    text: Of course. I'll give you a smoker's suite, if it's okay for you.
+    choices:
+    - No smokers
+    - Smoker's suite
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 0
+    humorToGo: 0
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 0
+    wrongKeyNextIndex: 0
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 0
+    text: Please, my dear!
+    choices:
+    - No smokers
+    - Smoker's suite
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 0
+    humorToGo: 0
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 0
+    wrongKeyNextIndex: 0
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 1
+    text: 'Let me get the #206 for you'
+    choices:
+    - No smokers
+    - Smoker's suite
+    changeExpectedKey: 1
+    newExpectedKey: 206
+    checkHumorAndJump: 0
+    changeHumor: 0
+    humorToGo: 0
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 0
+    wrongKeyNextIndex: 0
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 6
+    text: 
+    choices:
+    - No smokers
+    - Smoker's suite
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 0
+    humorToGo: 0
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 18
+    wrongKeyNextIndex: 20
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 0
+    text: Oh lala! That's more like it! Merci!
+    choices:
+    - No smokers
+    - Smoker's suite
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 1
+    humorToGo: 2
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 0
+    wrongKeyNextIndex: 0
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 4
+    text: 
+    choices:
+    - No smokers
+    - Smoker's suite
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 0
+    humorToGo: 0
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 0
+    wrongKeyNextIndex: 0
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 0
+    text: Sacripant! Well, this is not the room I asked for.
+    choices:
+    - No smokers
+    - Smoker's suite
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 1
+    humorToGo: 1
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 0
+    wrongKeyNextIndex: 0
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 1
+    text: Sorry, I'll pick the right key now.
+    choices:
+    - No smokers
+    - Smoker's suite
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 0
+    humorToGo: 0
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 0
+    wrongKeyNextIndex: 0
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 6
+    text: 
+    choices:
+    - No smokers
+    - Smoker's suite
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 0
+    humorToGo: 0
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 23
+    wrongKeyNextIndex: 25
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 0
+    text: At long last! There's a special place in eiffel for people like you!
+    choices:
+    - No smokers
+    - Smoker's suite
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 1
+    humorToGo: 1
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 0
+    wrongKeyNextIndex: 0
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 4
+    text: 
+    choices:
+    - No smokers
+    - Smoker's suite
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 0
+    humorToGo: 0
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 0
+    wrongKeyNextIndex: 0
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 0
+    text: That does it! You're busting our croissants here! Crossed the line! I'm
+      not staying any more second here! Goodbye mister!
+    choices:
+    - No smokers
+    - Smoker's suite
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 1
+    humorToGo: 0
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 0
+    wrongKeyNextIndex: 0
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 4
+    text: 
+    choices:
+    - No smokers
+    - Smoker's suite
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 0
+    humorToGo: 0
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 0
+    wrongKeyNextIndex: 0
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 1
+    text: Hahah, good one. Would you like to change your room to a smoker's suite?
+    choices:
+    - No smokers
+    - Smoker's suite
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 1
+    humorToGo: 3
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 0
+    wrongKeyNextIndex: 0
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 0
+    text: Sure, why not?
+    choices:
+    - No smokers
+    - Smoker's suite
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 0
+    humorToGo: 0
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 0
+    wrongKeyNextIndex: 0
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 1
+    text: 'Great. We just ask you to avoid smoking on the shared areas. I''ll  have
+      the #206 key for you.'
+    choices:
+    - No smokers
+    - Smoker's suite
+    changeExpectedKey: 1
+    newExpectedKey: 206
+    checkHumorAndJump: 0
+    changeHumor: 0
+    humorToGo: 0
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 0
+    wrongKeyNextIndex: 0
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 0
+    text: 'No problem dear sir. Merci. '
+    choices:
+    - No smokers
+    - Smoker's suite
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 0
+    humorToGo: 0
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 0
+    wrongKeyNextIndex: 0
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 1
+    text: Well, here's the keys of your suite. I hope you have a nice time here.
+    choices:
+    - No smokers
+    - Smoker's suite
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 0
+    humorToGo: 0
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 0
+    wrongKeyNextIndex: 0
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 6
+    text: 
+    choices:
+    - No smokers
+    - Smoker's suite
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 0
+    humorToGo: 0
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 33
+    wrongKeyNextIndex: 35
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 0
+    text: "You make me feel rigght at the \xC9lys\xE9e Palace! Exquisite hosting!"
+    choices:
+    - No smokers
+    - Smoker's suite
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 1
+    humorToGo: 3
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 0
+    wrongKeyNextIndex: 0
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 4
+    text: 
+    choices:
+    - No smokers
+    - Smoker's suite
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 0
+    humorToGo: 0
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 0
+    wrongKeyNextIndex: 0
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 0
+    text: My dear mr, I think you're mistaken on our keys! Would you have a second
+      lookk please?
+    choices:
+    - No smokers
+    - Smoker's suite
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 1
+    humorToGo: 2
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 0
+    wrongKeyNextIndex: 0
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 6
+    text: 
+    choices:
+    - No smokers
+    - Smoker's suite
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 0
+    humorToGo: 0
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 37
+    wrongKeyNextIndex: 39
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 0
+    text: Oh lala! That's more like it! Merci!
+    choices:
+    - No smokers
+    - Smoker's suite
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 1
+    humorToGo: 2
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 0
+    wrongKeyNextIndex: 0
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 4
+    text: 
+    choices:
+    - No smokers
+    - Smoker's suite
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 0
+    humorToGo: 0
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 0
+    wrongKeyNextIndex: 0
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 0
+    text: Sacripant! Well, this is not the room I asked for.
+    choices:
+    - No smokers
+    - Smoker's suite
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 1
+    humorToGo: 1
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 0
+    wrongKeyNextIndex: 0
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 1
+    text: 'Sorry, I''ll pick the #206 key now.'
+    choices:
+    - No smokers
+    - Smoker's suite
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 0
+    humorToGo: 1
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 0
+    wrongKeyNextIndex: 0
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 6
+    text: 
+    choices:
+    - No smokers
+    - Smoker's suite
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 0
+    humorToGo: 1
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 42
+    wrongKeyNextIndex: 44
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 0
+    text: At long last! There's a special place in eiffel for people like you!
+    choices:
+    - No smokers
+    - Smoker's suite
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 1
+    humorToGo: 1
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 0
+    wrongKeyNextIndex: 0
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 4
+    text: 
+    choices:
+    - No smokers
+    - Smoker's suite
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 0
+    humorToGo: 1
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 0
+    wrongKeyNextIndex: 0
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 0
+    text: That does it! You're busting our croissants here! Crossed the line! I'm
+      not staying any more second here! Goodbye mister!
+    choices:
+    - No smokers
+    - Smoker's suite
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 1
+    humorToGo: 0
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 0
+    wrongKeyNextIndex: 0
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 4
+    text: 
+    choices:
+    - No smokers
+    - Smoker's suite
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 0
+    humorToGo: 1
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 0
+    wrongKeyNextIndex: 0
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 0
+    text: We do. But we're trying to stop. We are bikers, you know?
+    choices:
+    - No smokers
+    - Smoker's suite
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 0
+    humorToGo: 1
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 0
+    wrongKeyNextIndex: 0
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 1
+    text: No, I didn't know that. That's good for you guys!
+    choices:
+    - No smokers
+    - Smoker's suite
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 0
+    humorToGo: 1
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 0
+    wrongKeyNextIndex: 0
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 1
+    text: Would you guys mind not smoking inside? We have some policies against it...
+    choices:
+    - No smokers
+    - Smoker's suite
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 0
+    humorToGo: 1
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 0
+    wrongKeyNextIndex: 0
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 0
+    text: 'I suppose it''s ok. We can smoke outside. '
+    choices:
+    - No smokers
+    - Smoker's suite
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 1
+    humorToGo: 3
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 0
+    wrongKeyNextIndex: 0
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 1
+    text: 'Thank you. Now, here''s your suite #204 keys.'
+    choices:
+    - No smokers
+    - Smoker's suite
+    changeExpectedKey: 1
+    newExpectedKey: 204
+    checkHumorAndJump: 0
+    changeHumor: 0
+    humorToGo: 3
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 0
+    wrongKeyNextIndex: 0
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 6
+    text: 
+    choices:
+    - No smokers
+    - Smoker's suite
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 0
+    humorToGo: 3
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 33
+    wrongKeyNextIndex: 35
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 0
+    text: Is that gonna be a problem?
+    choices:
+    - No smokers
+    - Smoker's suite
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 0
+    humorToGo: 3
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 0
+    wrongKeyNextIndex: 0
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 3
+    text: 
+    choices:
+    - No
+    - Yes
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 0
+    humorToGo: 3
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 0
+    wrongKeyNextIndex: 0
+    choiceOneNextLine: 54
+    choiceTwoNextLine: 58
+  - lineType: 1
+    text: No, not at all. We just have some policies about smoking inside.
+    choices:
+    - No smokers
+    - Smoker's suite
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 0
+    humorToGo: 3
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 0
+    wrongKeyNextIndex: 0
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 0
+    text: Yeah, right.
+    choices:
+    - No smokers
+    - Smoker's suite
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 1
+    humorToGo: 2
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 0
+    wrongKeyNextIndex: 0
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 1
+    text: 'Anyway, here is your suite #204 keys. Thanks for waiting.'
+    choices:
+    - No smokers
+    - Smoker's suite
+    changeExpectedKey: 1
+    newExpectedKey: 204
+    checkHumorAndJump: 0
+    changeHumor: 0
+    humorToGo: 3
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 0
+    wrongKeyNextIndex: 0
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 6
+    text: ' '
+    choices:
+    - No smokers
+    - Smoker's suite
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 0
+    humorToGo: 3
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 37
+    wrongKeyNextIndex: 39
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 0
+    text: You're gonna regret that! No french will ever step in this horrid place!
+      Good day!
+    choices:
+    - No smokers
+    - Smoker's suite
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 1
+    humorToGo: 0
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 0
+    wrongKeyNextIndex: 0
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 4
+    text: 
+    choices:
+    - No smokers
+    - Smoker's suite
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 0
+    humorToGo: 3
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 0
+    wrongKeyNextIndex: 0
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+--- !u!1001 &9057164859988276037
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5704841475975918563}
+    m_Modifications:
+    - target: {fileID: 8909030898174890655, guid: 5709eea7e05f5174796bd8a71535ad1a,
+        type: 3}
+      propertyPath: m_Name
+      value: French
+      objectReference: {fileID: 0}
+    - target: {fileID: 8909030898174890627, guid: 5709eea7e05f5174796bd8a71535ad1a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.35814452
+      objectReference: {fileID: 0}
+    - target: {fileID: 8909030898174890627, guid: 5709eea7e05f5174796bd8a71535ad1a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.821532
+      objectReference: {fileID: 0}
+    - target: {fileID: 8909030898174890627, guid: 5709eea7e05f5174796bd8a71535ad1a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.09375
+      objectReference: {fileID: 0}
+    - target: {fileID: 8909030898174890627, guid: 5709eea7e05f5174796bd8a71535ad1a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8909030898174890627, guid: 5709eea7e05f5174796bd8a71535ad1a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8909030898174890627, guid: 5709eea7e05f5174796bd8a71535ad1a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8909030898174890627, guid: 5709eea7e05f5174796bd8a71535ad1a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8909030898174890627, guid: 5709eea7e05f5174796bd8a71535ad1a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8909030898174890627, guid: 5709eea7e05f5174796bd8a71535ad1a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8909030898174890627, guid: 5709eea7e05f5174796bd8a71535ad1a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8909030898174890627, guid: 5709eea7e05f5174796bd8a71535ad1a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5709eea7e05f5174796bd8a71535ad1a, type: 3}
+--- !u!4 &437622199406420422 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8909030898174890627, guid: 5709eea7e05f5174796bd8a71535ad1a,
+    type: 3}
+  m_PrefabInstance: {fileID: 9057164859988276037}
+  m_PrefabAsset: {fileID: 0}

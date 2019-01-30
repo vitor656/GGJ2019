@@ -1,0 +1,913 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7905263039904919160
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7905263039904919156}
+  - component: {fileID: 7905263039904919159}
+  - component: {fileID: 7905263039904919158}
+  - component: {fileID: 7905263039904919161}
+  - component: {fileID: 7255355695785340579}
+  m_Layer: 0
+  m_Name: Cuban
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7905263039904919156
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7905263039904919160}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.12, y: 0.92, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &7905263039904919159
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7905263039904919160}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 19d8c9e86de411e4885ca4e14f366fa0, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 6.756757, y: 6.756757}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!61 &7905263039904919158
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7905263039904919160}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.03215432, y: 0.8517084}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 6.756757, y: 6.756757}
+    newSize: {x: 6.756757, y: 6.756757}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4.248674, y: 4.089143}
+  m_EdgeRadius: 0
+--- !u!114 &7905263039904919161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7905263039904919160}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 463b7c2a1030a0e46b87c4961b3f73ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  miniDocsObj: {fileID: 7608651724101285484, guid: 09f7a676617824843b07e4d1b824e5ad,
+    type: 3}
+  expectedKey: 107
+  isCouple: 0
+  id: 1414
+  name: Lucia
+  initialMessage: 
+  nacionalidade: 13
+  humor: 1
+  choices: []
+  dialogueLines:
+  - lineType: 0
+    text: Buenas muerte... cof, coff.. noches, sir.
+    choices: []
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 0
+    humorToGo: 0
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 0
+    wrongKeyNextIndex: 0
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 1
+    text: Good evening, Ms. Do you have a reservaion?
+    choices: []
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 0
+    humorToGo: 0
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 0
+    wrongKeyNextIndex: 0
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 0
+    text: Don't we all have? hahah
+    choices: []
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 0
+    humorToGo: 0
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 0
+    wrongKeyNextIndex: 0
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 1
+    text: heheh, I think so..? May I see your documents?
+    choices: []
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 0
+    humorToGo: 0
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 0
+    wrongKeyNextIndex: 0
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 5
+    text: 
+    choices: []
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 0
+    humorToGo: 0
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 0
+    wrongKeyNextIndex: 0
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 1
+    text: Ok, Ms. Diaz. Wait for a moment while I check you in.
+    choices: []
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 0
+    humorToGo: 0
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 0
+    wrongKeyNextIndex: 0
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 0
+    text: Sure. It's not like we're gonna die soon, right? HAHAHAHA :/
+    choices: []
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 0
+    humorToGo: 0
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 0
+    wrongKeyNextIndex: 0
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 1
+    text: No... It's not... heh.
+    choices: []
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 1
+    changeHumor: 0
+    humorToGo: 0
+    badNextLineIndex: 31
+    normalNextLineIndex: 8
+    goodNextLineIndex: 43
+    rightKeyNextIndex: 0
+    wrongKeyNextIndex: 0
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 1
+    text: Here's your key. Room 10...
+    choices: []
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 0
+    humorToGo: 0
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 0
+    wrongKeyNextIndex: 0
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 0
+    text: '#107, I know. But that room is no good. I can''t see the mighty moon of
+      the muerte from there. Would you be kind enough to change me to room #103 where
+      I have a pretty nice view of it?'
+    choices: []
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 0
+    humorToGo: 0
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 0
+    wrongKeyNextIndex: 0
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 3
+    text: 
+    choices:
+    - I'm sorry no
+    - Well, by all means
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 0
+    humorToGo: 0
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 0
+    wrongKeyNextIndex: 0
+    choiceOneNextLine: 11
+    choiceTwoNextLine: 18
+  - lineType: 1
+    text: Hmm, that's unnusual and unsettling. I'm not changing your room.
+    choices: []
+    changeExpectedKey: 1
+    newExpectedKey: 107
+    checkHumorAndJump: 0
+    changeHumor: 0
+    humorToGo: 1
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 0
+    wrongKeyNextIndex: 0
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 0
+    text: Well, then. If something happens, you know I warned. Give me the keys.
+    choices: []
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 1
+    humorToGo: 1
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 0
+    wrongKeyNextIndex: 0
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 6
+    text: 
+    choices: []
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 0
+    humorToGo: 0
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 14
+    wrongKeyNextIndex: 16
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 0
+    text: You're not mucho hospitalero, my dear! You should work better! Hasta luego!
+    choices: []
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 1
+    humorToGo: 1
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 0
+    wrongKeyNextIndex: 0
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 4
+    text: 
+    choices: []
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 0
+    humorToGo: 0
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 0
+    wrongKeyNextIndex: 0
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 0
+    text: "Basta! I wouldn't treat a rottin' corpse as you treat me! Adi\xF3s!"
+    choices: []
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 1
+    humorToGo: 0
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 0
+    wrongKeyNextIndex: 0
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 4
+    text: 
+    choices: []
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 0
+    humorToGo: 0
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 0
+    wrongKeyNextIndex: 0
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 1
+    text: 'Well, if you don''t feel good about this room, I''ll change you to the
+      #103.'
+    choices: []
+    changeExpectedKey: 1
+    newExpectedKey: 103
+    checkHumorAndJump: 0
+    changeHumor: 0
+    humorToGo: 0
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 0
+    wrongKeyNextIndex: 0
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 0
+    text: "Graci\xE1s! You're a such a good soul! Maybe I could take a liking to you
+      after your life fades... Still, I'm pleased! Do you feel anything wrong with
+      your health?"
+    choices: []
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 1
+    humorToGo: 3
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 0
+    wrongKeyNextIndex: 0
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 1
+    text: 'Uhhh... no? Thanks anyway! Let me take the #103 keys for you..!'
+    choices: []
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 0
+    humorToGo: 3
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 0
+    wrongKeyNextIndex: 0
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 6
+    text: 
+    choices: []
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 0
+    humorToGo: 3
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 22
+    wrongKeyNextIndex: 24
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 0
+    text: "I feel just like in a cozy tumba here! Such a warming welcome! Muchas gr\xE1cias!"
+    choices: []
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 1
+    humorToGo: 3
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 0
+    wrongKeyNextIndex: 0
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 4
+    text: 
+    choices: []
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 0
+    humorToGo: 3
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 0
+    wrongKeyNextIndex: 0
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 0
+    text: "M\xE1s cuidado, my dear! That's not my key!"
+    choices: []
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 1
+    humorToGo: 2
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 0
+    wrongKeyNextIndex: 0
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 1
+    text: 'I''m sorry! I''ll take the #103.'
+    choices: []
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 0
+    humorToGo: 3
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 0
+    wrongKeyNextIndex: 0
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 6
+    text: 
+    choices: []
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 0
+    humorToGo: 3
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 27
+    wrongKeyNextIndex: 29
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 0
+    text: Well, I hoppe to finally take a rest. Not my final though... JaJaJa! Thanks!
+    choices: []
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 1
+    humorToGo: 2
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 0
+    wrongKeyNextIndex: 0
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 4
+    text: 
+    choices: []
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 0
+    humorToGo: 3
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 0
+    wrongKeyNextIndex: 0
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 0
+    text: "Se\xF1or, no tengo tiempo para esa bufoner\xEDa! Dame las llaves correctas."
+    choices: []
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 1
+    humorToGo: 1
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 0
+    wrongKeyNextIndex: 0
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 6
+    text: 
+    choices: []
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 0
+    humorToGo: 1
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 14
+    wrongKeyNextIndex: 16
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 1
+    text: 'I see you''re on room #107 here, right?'
+    choices: []
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 0
+    humorToGo: 1
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 0
+    wrongKeyNextIndex: 0
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 0
+    text: Yes. I really don't like that room and I think it was not nice of you to
+      pick such a room for me! I'm sensing all kind of evil presences in there!
+    choices: []
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 0
+    humorToGo: 1
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 0
+    wrongKeyNextIndex: 0
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 1
+    text: Well, maybe I could change the room for you?
+    choices: []
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 0
+    humorToGo: 1
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 0
+    wrongKeyNextIndex: 0
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 0
+    text: Well it could turn even worse, I fear.
+    choices: []
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 0
+    humorToGo: 1
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 0
+    wrongKeyNextIndex: 0
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 3
+    text: 
+    choices:
+    - Clanse ritual on room
+    - Nothing I can do
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 0
+    humorToGo: 1
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 0
+    wrongKeyNextIndex: 0
+    choiceOneNextLine: 36
+    choiceTwoNextLine: 40
+  - lineType: 1
+    text: Sorry, Ms. Diaz. I'm sure we could try to perform a cleanse ritual, as I
+      can sense you have a very strong aura from you... I'm sure we would be succesful!
+    choices: []
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 0
+    humorToGo: 1
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 0
+    wrongKeyNextIndex: 0
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 0
+    text: Well, you flatter me! I feel my powers ready...! We may as well since we're
+      here!
+    choices: []
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 1
+    humorToGo: 2
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 0
+    wrongKeyNextIndex: 0
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 1
+    text: 'Well, let me have your key... '
+    choices: []
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 0
+    humorToGo: 1
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 0
+    wrongKeyNextIndex: 0
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 6
+    text: 
+    choices: []
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 0
+    humorToGo: 1
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 27
+    wrongKeyNextIndex: 29
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 1
+    text: Sorry, Ms. Diaz. There's nothing we can do for you. Would you still want
+      to check-in?
+    choices: []
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 0
+    humorToGo: 0
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 27
+    wrongKeyNextIndex: 29
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 0
+    text: "Actually no. I'm not feeling so well in this place. I'll take my leave.
+      Adi\xF3s!"
+    choices: []
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 1
+    humorToGo: 0
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 27
+    wrongKeyNextIndex: 29
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 4
+    text: 
+    choices: []
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 0
+    humorToGo: 1
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 27
+    wrongKeyNextIndex: 29
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 1
+    text: 'I see you have a reservation for room #107, here.'
+    choices: []
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 0
+    humorToGo: 1
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 0
+    wrongKeyNextIndex: 0
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 0
+    text: 'Is there any problem with room #107 my dear? I feel such good vibrations
+      from this place! It''s like I can connect with my soul!'
+    choices: []
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 0
+    humorToGo: 1
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 0
+    wrongKeyNextIndex: 0
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 1
+    text: Oh great! In that case can I look for your keys?
+    choices: []
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 0
+    humorToGo: 1
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 0
+    wrongKeyNextIndex: 0
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 0
+    text: Por supuesto que si! You'll be doing me a great favor!
+    choices: []
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 0
+    humorToGo: 1
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 0
+    wrongKeyNextIndex: 0
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 6
+    text: 
+    choices: []
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 0
+    humorToGo: 1
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 48
+    wrongKeyNextIndex: 24
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 0
+    text: "I feel just like in a cozy tumba here! Such a warming welcome! Muchas gr\xE1cias!"
+    choices: []
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 1
+    humorToGo: 3
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 0
+    wrongKeyNextIndex: 0
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+  - lineType: 4
+    text: 
+    choices: []
+    changeExpectedKey: 0
+    newExpectedKey: 
+    checkHumorAndJump: 0
+    changeHumor: 0
+    humorToGo: 1
+    badNextLineIndex: 0
+    normalNextLineIndex: 0
+    goodNextLineIndex: 0
+    rightKeyNextIndex: 0
+    wrongKeyNextIndex: 0
+    choiceOneNextLine: 0
+    choiceTwoNextLine: 0
+--- !u!114 &7255355695785340579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7905263039904919160}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62c370585bbbccc4986ad4d4d6a20dd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  badSprite: {fileID: 21300000, guid: 1978e20b8ca5ec14f9367d9af08c435a, type: 3}
+  normalSprite: {fileID: 21300000, guid: 19d8c9e86de411e4885ca4e14f366fa0, type: 3}
+  goodSprite: {fileID: 21300000, guid: cc6d339a244c81943ac22a9a1f24781f, type: 3}
